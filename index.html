@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <title>INDIAN NATIONAL FLAG</title>
+</head>
+
+<body>
+    <audio id="audio" src="Vande Matram .mp3"></audio>
+    
+    <h1>
+        INDIAN NATIONAL FLAG</h1>
+        
+    <img src="383px-Flag_of_India.svg.png">
+   
+    
+    <h1>National song of India</h1>
+    <h2>Vande Mataram</h2>
+
+    <audio controls id="au">
+        <source src="Vande Matram.mp3" type="audio/ogg">
+    </audio>    
+    
+
+    
+    <h1 >Evolution of the Indian Flag</h1>
+    <h4 class="t">Click on Next button to see the evolutin</h4>
+    <img id="image" src="2.png">
+    <div>
+       
+    <h3 id="reason">The first national flag in India is said to have been hoisted on August 7, 1906, in the Parsee Bagan Square (Green Park) in 
+        Kolkata. The flag was composed of three horizontal strips of red, yellow and green.</h3>
+    
+    <button type="button" id="next" onclick="slide()">Next</button> 
+    <h1 class="q">Shape and colour</h1>
+    <h3 class="q">The National flag of India is rectangular in shape with tricolour Indian safron, white and green. It has Ashoka Chakra in the middle which is blue in colour. It has 24 spokes which symbolises that we have to work 24 hours a day.</h3>
+    <h1 class="q">More about Indian flag colour</h1>
+    <ul>
+        <li class="ru">Safforn: Indicating the strength and courage of the country</li>
+        <li class="ru">White: Indicating the peace and truth</li>
+        <li class="ru">Green: Indicating the fertility, growth and auspiciousness of the land.</li>
+    </ul>
+    
+    <h1 class="q">Rules To Hoist Indian Flag</h1>
+
+    <ul>
+        <li class="ru">According to a Supreme Court judgement in 2004, every Indian has the right to fly the national flag freely with respect and dignity. </li>
+        <li class="ru">The Tricolour should always be hoisted in a place of power from sunrise to sunset.</li> 
+        <li class="ru">While hoisting the flag, the saffron band must always be displayed as the topmost band on the right.</li>
+        <li class="ru">Using the national flag as decoration is not allowed. So is drawing on the flag or defacing it with an inscription.</li>
+        <li class="ru">The flag should not touch the ground or used as an advertisement or wrap. In addition, the flag cannot be torn, damaged or burnt.</li>    
+    </ul>
+
+    <h1>Hoist the Indian Flag</h1>
+
+    <h5 class="t">Please stand up and Hoist the Flag</h5>
+    <div id="t">
+    <img id="the">
+    </div>
+    <button id="bh" type="button" onclick="hf()">Hoist the flag</button>
+    <h1>Happy Independence day</h1>
+    <img src="71279-happy-independence-day.gif" height="200px">
+    
+</body>
+<style>
+body{
+    background-color: #ADD8E6;
+    color: #00008B;
+    text-align: center;
+}
+#next{
+    border-radius: 10px;
+    background-color: #ADD8E6;
+    color: #00008B;
+    font-weight: bold;
+}
+.q{
+    text-align: left;
+}
+.t{
+    color: red;
+}
+#bh{
+    margin-top: 10px;
+}
+.evu{
+    text-align: center;
+}
+
+img{
+    border-style: solid;
+    border-color: white;
+}
+.ru{
+    text-align: left;
+    font-size: 19.5px;
+    font-weight: bold;
+
+}
+#the{
+    width: 200px;
+    height: 200px;
+}
+#next{
+    width: 4cm;
+    height: 30px;
+}
+
+</style>
+<script>
+
+    function hf(){
+        document.getElementById('the').src='India flag.jpg'
+        
+    }
+    
+    
+     
+    var reason=["The second flag was hoisted in Paris by Madame Cama and her band of exiled revolutionaries in 1907 (according to some inl9OS). This was very similar to the first flag except that the top strip had only one lotus but seven stars denoting the Saptarishi.This flag was also exhibited at a socialist conference in Berlin.","The third flag went up in 1917 when our political struggle had taken a definite turn. Dr. Annie Besant and Lokmanya Tilak hoisted it during the Home rule movement. This flag had five red and four green horizontal strips arranged alternately, with seven stars in the saptarishi configuration super-imposed on them.","During the session of the All India Congress Committee which met at Bezwada in 1921 (now Vijayawada) an Andhra youth prepared a flag and took it to Gandhiji. It was made up of two colours-red and green-representing the two major communities i.e. Hindus and Muslims.","The year 1931 was a landmark in the history of the flag. A resolution was passed adopting a tricolor flag as our national flag. This flag, the forbear of the present one, was saffron, white and green with Mahatma Gandhi's spinning wheel at the center.","On July 22, 1947, the Constituent Assembly adopted it as Free India National Flag. After the advent of Independence, the colours and their significance remained the same. Only the Dharma Charkha of Emperor Asoka was adopted in place of the spinning wheel as the emblem on the flag. "];
+    
+
+    var images=["3.png","4.png","5.png","6.png","7.png"]
+
+    var i=0;
+function slide(){
+  document.getElementById("reason").innerHTML=reason[i];
+  document.getElementById("image").src=images[i];
+  i++;
+}
+
+
+</script>
+
+</html>
